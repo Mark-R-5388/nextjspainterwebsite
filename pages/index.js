@@ -1,24 +1,13 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { BsFacebook, BsInstagram } from 'react-icons/bs';
+
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function Home() {
 	return (
 		<>
-			<header className={styles.home_header}>
-				<div className={styles.home_link_container}>
-					<Link href='/about'>
-						<a className={styles.home_link}>About</a>
-					</Link>
-					<Link href='/contact'>
-						<a className={styles.home_link}>Contact</a>
-					</Link>
-					<Link href='/gallery'>
-						<a className={styles.home_link}>Gallery</a>
-					</Link>
-				</div>
-			</header>
+			<Header />
 
 			<section className={styles.home_section}>
 				<Image
@@ -63,29 +52,7 @@ export default function Home() {
 					</div>
 				</div>
 			</main>
-			<footer className={styles.home_footer}>
-				<div className={styles.home_footer_container}>
-					<p className={styles.home_footer_text}>
-						The Ultimate Painter &copy; 2022
-					</p>
-					<div className={styles.home_footer_contact_section}>
-						<p>(888)888-8888</p>
-						<p>email@email.com</p>
-						<div className={styles.home_footer_social_container}>
-							<Link href='https://instagram.com'>
-								<a>
-									<BsFacebook />
-								</a>
-							</Link>
-							<Link href='https://facebook.com'>
-								<a>
-									<BsInstagram />
-								</a>
-							</Link>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<Footer />
 		</>
 	);
 }

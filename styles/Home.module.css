@@ -1,25 +1,3 @@
-.home_header {
-	background: #3b3bcac7;
-	width: 100%;
-	height: 5rem;
-	display: flex;
-	justify-content: center;
-}
-
-.home_link_container {
-	max-width: 95%;
-	width: 1200px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.home_link {
-	font-size: 1.5rem;
-	font-weight: 800;
-	letter-spacing: 1.5px;
-}
-
 .home_section {
 	position: relative;
 	width: 100%;
@@ -91,32 +69,4 @@
 	padding: 0 1rem;
 	max-width: 30rem;
 	width: 50%;
-}
-
-.home_footer {
-	padding: 3rem 0 2rem;
-	width: 100%;
-	background: rgb(230, 230, 230);
-}
-.home_footer_container {
-	margin: 0 auto;
-	max-width: 95%;
-	width: 1200px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.home_footer_text {
-	font-size: 1.5rem;
-	margin: 0;
-}
-.home_footer_contact_section {
-	max-width: 60%;
-	width: 30rem;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.home_footer_social_container {
-	max-width: 30%;
 }
