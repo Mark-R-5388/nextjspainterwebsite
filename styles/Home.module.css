@@ -74,6 +74,7 @@
 }
 
 .home_main_text_header {
+  margin: 0;
   padding-left: 1rem;
   border-left: 4px solid #3b3bcac7;
   font-size: 2rem;
@@ -96,6 +97,9 @@
 @media screen and (max-width: 776px) {
   .home_main_container {
     flex-direction: column;
+  }
+  .home_main_text_header {
+    margin-top: 2rem;
   }
   .home_main_image_container {
     max-width: 100%;
